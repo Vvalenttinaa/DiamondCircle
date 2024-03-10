@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="542.0" prefWidth="216.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pj2projektnizadatak.RezultatiController">
+   <children>
+      <TableView fx:id="idRezultati" layoutX="7.0" layoutY="65.0" prefHeight="466.0" prefWidth="198.0">
+         <columns>
+            <TableColumn fx:id="idColumn" prefWidth="197.60001220703126" text="REZULTATI" />
+         </columns>
+      </TableView>
+      <Label layoutX="7.0" layoutY="14.0" prefHeight="38.0" prefWidth="154.0" text="DiamondCircle" textFill="#e71717">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

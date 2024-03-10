@@ -1,0 +1,11 @@
+Igrac 1 - igrac
+	Figura 1 (ObicnaFigura, ZUTA) - predjeni put:  (4 12 20 28 34 40 46 38 30 22 16 10 11 19 27 33 39 ) - stigla do cilja (ne) Vrijeme kretanja: 17
+
+	Figura 2 (ObicnaFigura, ZUTA) - predjeni put:  (4 12 20 28 34 40 46 38 30 22 ) - stigla do cilja (ne) Vrijeme kretanja: 10
+
+	Figura 3 (ObicnaFigura, ZUTA) - predjeni put:  (4 12 20 28 34 40 46 38 30 22 16 10 11 19 27 33 39 31 23 17 18 26 32 24 25 ) - stigla do cilja (da) Vrijeme kretanja: 25
+
+	Figura 4 (ObicnaFigura, ZUTA) - predjeni put:  (4 12 20 28 34 40 46 38 30 22 16 10 11 19 27 33 39 31 23 17 18 26 32 24 25 ) - stigla do cilja (da) Vrijeme kretanja: 25
+
+
+Ukupno vrijeme trajanja igre: 78s

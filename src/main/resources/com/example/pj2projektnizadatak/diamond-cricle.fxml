@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pj2projektnizadatak.DiamondCricleController">
+   <children>
+      <SplitPane layoutX="14.0" layoutY="211.0" orientation="VERTICAL" prefHeight="510.0" prefWidth="829.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="509.0" prefWidth="820.0">
+               <children>
+                  <Pane layoutX="647.0" layoutY="22.0" prefHeight="294.0" prefWidth="178.0">
+                     <children>
+                        <ImageView fx:id="imageView" fitHeight="244.0" fitWidth="165.0" layoutX="7.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" />
+                        <Label fx:id="idTrenutnaKarta" layoutX="7.0" layoutY="6.0" text="TRENUTNA KARTA" textAlignment="CENTER" />
+                        <GridPane fx:id="idGridPaneKvadrati" layoutX="22.0" layoutY="245.0" prefHeight="3.0" prefWidth="16.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                        </GridPane>
+                     </children>
+                  </Pane>
+                  <Button fx:id="idRezultatiButton" layoutX="647.0" layoutY="347.0" mnemonicParsing="false" onAction="#onClickRezultati" prefHeight="56.0" prefWidth="147.0" text="REZULTATI" textFill="#3831b9" />
+                  <Label fx:id="idOpisPoteza" layoutX="217.0" layoutY="380.0" prefHeight="74.0" prefWidth="396.0" text="Opis poteza" textFill="#6719a6" />
+                  <GridPane fx:id="idGridPane1" alignment="CENTER" layoutX="27.0" layoutY="25.0" prefHeight="339.0" prefWidth="158.0">
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                     </rowConstraints>
+                  </GridPane>
+                  <Button fx:id="idButtonPokreniZautsavi" layoutX="647.0" layoutY="404.0" mnemonicParsing="false" onAction="#pressPokreniZaustavi" prefHeight="62.0" prefWidth="147.0" text="POKRENI/ZAUSTAVI" textFill="#3d13e4" />
+                  <Label fx:id="idOpisPozicije" layoutX="216.0" layoutY="461.0" prefHeight="48.0" prefWidth="396.0" text="Label" textFill="#a92945" />
+                  <Line endX="100.0" layoutX="115.0" layoutY="1.0" startX="100.0" startY="509.20001220703125" stroke="#a19a9a" />
+                  <Line endX="100.0" layoutX="529.0" layoutY="-1.0" startX="100.0" startY="509.20001220703125" stroke="#a19a9a" />
+                  <Line endX="311.800048828125" endY="6.103515625E-5" layoutX="317.0" layoutY="380.0" startX="-100.0" stroke="#b1b1b1" />
+                  <GridPane fx:id="idGridPane" alignment="CENTER" layoutX="237.0" layoutY="50.0" prefHeight="306.0" prefWidth="354.0">
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+    <AnchorPane layoutX="4.0" minHeight="0.0" minWidth="0.0" prefHeight="103.0" prefWidth="919.0">
+         <children>
+            <Text fill="#d70c0c" layoutX="278.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diamond Cricle" textAlignment="CENTER" wrappingWidth="296.8000854492186">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+            <Line endX="-100.29278564453125" endY="198.19287109375" layoutX="939.0" layoutY="11.0" startX="-100.0" stroke="#d48585" />
+            <Line endX="-29.799999237060547" endY="265.0" layoutX="43.0" layoutY="-53.0" startX="-29.799999237060547" startY="63.192893981933594" stroke="#d48585" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="123.0" prefHeight="89.0" prefWidth="825.0">
+         <children>
+            <Label fx:id="idIgrac1" layoutX="209.0" layoutY="14.0" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="idIgrac2" layoutX="295.0" layoutY="14.0" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="idIgrac3" layoutX="380.0" layoutY="14.0" textFill="#131313" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="idIgrac4" layoutX="470.0" layoutY="14.0" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f0f7d5" height="35.0" layoutX="753.0" layoutY="45.0" stroke="#cfb040" strokeType="INSIDE" width="58.0" />
+            <Label fx:id="idTrajanje" layoutX="764.0" layoutY="45.0" prefHeight="35.0" prefWidth="45.0" text="s" textAlignment="CENTER" />
+            <Label layoutX="14.0" layoutY="13.0" prefHeight="62.0" prefWidth="105.0" text="Trenutni broj odigranih igara: " textFill="#8c7fdc" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label fx:id="idBrojIgara" layoutX="120.0" layoutY="29.0" prefHeight="48.0" prefWidth="64.0" text="Label" textFill="#5a44e7">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="697.0" layoutY="45.0" prefHeight="35.0" prefWidth="64.0" text="Trajanje:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Line endX="842.0" endY="9.692892074584961" startX="17.700000762939453" startY="9.692892074584961" stroke="#d48585" />
+      <Line endX="727.0000610351562" layoutX="115.0" layoutY="211.0" startX="-97.80000305175781" stroke="#d48585" />
+   </children>
+</Pane>
